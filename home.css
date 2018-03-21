@@ -206,3 +206,10 @@ iframe{
         list-style: none;
         border-bottom: 1px dashed #fff;
     }
+.copyrights .copy{
+        background-color:#0B71AC;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
