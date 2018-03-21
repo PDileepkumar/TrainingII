@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .topnav{
     background-color:#0B71AC;
     padding: 15px 5px 5px 2px;
@@ -166,7 +170,7 @@
             font-weight: normal;
             line-height: 22px;
         }
-        
+
 #scroller {
         position: relative;
     }
@@ -199,7 +203,8 @@
     background-color: black
 }
 iframe{
-    padding: 10px;
+
+    padding: 5px;
     margin-top: 50px;
 }
 .Quick .Quick-ltem{
@@ -213,4 +218,14 @@ iframe{
         text-align: center;
         padding: 10px;
         margin-bottom: 0px;
+    }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .whyus ul {
+    float: left;
+    width: 95%;
+    padding: 0px;
+    margin: 10px 20px 0px 0px;
+}
+}
     }
